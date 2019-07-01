@@ -1,0 +1,1 @@
+electron-packager . bot --overwrite --asar=true --platform=win32 --arch=ia32 --icon=assets/icons/win/icon.ico --prune=true --out=release-builds --version-string.CompanyName=Falabella --version-string.FileDescription=Falabella --version-string.ProductName=Bot

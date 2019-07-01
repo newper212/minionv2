@@ -1,0 +1,24 @@
+{
+  "user": "",
+  "pass": "",
+  "rename": {
+    "search": [
+      "Estilo",
+      "DIM3"
+    ],
+    "priority": [
+      "on-model_standard",
+      "on-model_front",
+      "on-model_side",
+      "on-model_back",
+      "on-model_detail-1",
+      "on-model_detail-2",
+      "on-model_detail-3",
+      "photo_standard_",
+      "photo_front_",
+      "photo_back_",
+      "photo_standard-",
+      "photo_back-"
+    ]
+  }
+}
