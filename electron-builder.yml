@@ -1,4 +1,4 @@
 appId: minion
-token: cf935631cb8bc0f03caa77618e3cbfb98d508170
 publish:
   provider: github
+  token: cf935631cb8bc0f03caa77618e3cbfb98d508170
