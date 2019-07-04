@@ -3,10 +3,12 @@
   "productName": "Bot",
   "version": "1.0.0",
   "description": "minion",
+  "repository": "https://github.com/newper212/minionv2",
   "main": "index.js",
   "scripts": {
     "start": "electron .",
     "build": "electron-packager . bot --overwrite --asar --platform=win32 --arch=ia32 --icon=assets/icons/win/icon.ico --prune=true --out=release-builds --version-string.CompanyName=Falabella --version-string.FileDescription=Falabella --version-string.ProductName=Bot",
+    "ship": "build --win -p always",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Ismael Diaz",
@@ -19,6 +21,7 @@
     "convict": "^4.4.0",
     "curl": "^0.1.4",
     "dotenv": "^6.1.0",
+    "electron-updater": "^4.0.14",
     "jquery": "^3.3.1",
     "jsdom": "^13.0.0",
     "json2csv": "^4.3.0",
@@ -38,6 +41,7 @@
   },
   "devDependencies": {
     "electron": "^3.0.8",
+    "electron-builder": "^20.44.4",
     "electron-packager": "^12.2.0"
   }
 }
